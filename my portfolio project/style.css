@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.portfolio{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(background.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-attachment:cover;
+}
+.profile{
+    color: #ffffff;
+    line-height: 40px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.profile img{
+    width: 314px;
+    height: 295px;
+    border-radius: 60%;
+    margin-top: 10%;
+}
+.profile h2{
+    font-size: 50px;
+    margin-top: 30px;
+}
+.profile h3, h4{
+    font-size:20px;
+    color: #ffffff;
+} 
+.icon-style{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 7px;
+    /* border-bottom: 24px; */
+}
+.icon-style i{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin: 4px;
+}
+.portfolio .profile{    
+    width: 400px;        
+    border: 6px solid white;         
+    height: 510px;         
+    margin: 50 auto;         
+    /* margin-top: 1px;         */
+    padding: 30px;
+    }
+    .fb{
+        padding: 10px 13px !important;
+    }

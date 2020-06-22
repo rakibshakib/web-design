@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Excersize</title>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        thead tr {
+            background-color: #dddddd;
+            font-size: 20px;
+        }
+
+        tbody tr:nth-of-type(even) {
+            background-color: #dddddd;
+        }
+
+        form {
+            background-color: lightblue;
+            width: 400px;
+            border: 3px solid gray;
+            height: 450px;
+            margin: 0 auto;
+            margin-top: 20px;
+            padding: 20px;
+        }
+
+        input {
+            display: block;
+        }
+
+        .radio input {
+            display: inline;
+        }
+        /* .center{
+            margin:0 auto;
+            width: 200px;
+        } */
+    </style>
+</head>
+
+<body>
+    <table border="1px">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Adress</th>
+                <th>Number</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>01</td>
+                <td>Sujon</td>
+                <td>Dhaka</td>
+                <td>01xxxx</td>
+            </tr>
+            <tr>
+                <td>01</td>
+                <td>Sujon</td>
+                <td>Dhaka</td>
+                <td>01xxxx</td>
+            </tr>
+            <tr>
+                <td>01</td>
+                <td>Sujon</td>
+                <td>Dhaka</td>
+                <td>01xxxx</td>
+            </tr>
+            <tr>
+                <td>01</td>
+                <td>Sujon</td>
+                <td>Dhaka</td>
+                <td>01xxxx</td>
+            </tr>
+            <tr>
+                <td>01</td>
+                <td>Sujon</td>
+                <td>Dhaka</td>
+                <td>01xxxx</td>
+            </tr>
+            <tr>
+                <td>01</td>
+                <td>Sujon</td>
+                <td>Dhaka</td>
+                <td>01xxxx</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form>
+        <div class="center">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName"><br>
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName"><br>
+            <label for="email">Enter your email address</label>
+            <input type="email" id="email"><br>
+            <label for="birthday">Your Birthday</label>
+            <input type="date" id="birthday"><br>
+            <label for="password">Enter Your password</label>
+            <input type="password" id="password"><br>
+            <label for="confirmPassword">Enter Your confirm password</label>
+            <input type="password" id="confirmPassword"><br>
+            <div class="radio">
+                <label for="male">male</label>
+                <input type="radio" name="Gender" id="male">
+                <label for="female">female</label>
+                <input type="radio" name="Gender" id="female">
+                <label for="Other">Other</label>
+                <input type="radio" name="Gender" id="Other">
+            </div>
+            <br>
+
+            <input type="submit" value="Register">
+        </div>
+    </form>
+</body>
+
+</html>
